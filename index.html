@@ -18,25 +18,45 @@
         <a href="/">
           <img class="navbar-logo" src="https://static.blovcdn.com/images/logo/logo-2.svg" alt="logo"
         /></a>
-        <form
-          style="
-            display: flex;
-            width: 40%;
-            justify-content: space-between;
-            padding-right: 20px;
-          "
-        >
-          <input type="email" name="email" id="email" placeholder="Email" />
+        <form class="sign-in-header-input">
           <input
-            type="password"
-            name="password"
-            id="password"
-            placeholder="Password"
+            style="margin-top: -5px"
+            class="input-field"
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Email"
           />
-          <button type="submit">Log In</button>
+
+          <div>
+            <input
+              type="password"
+              name="password"
+              id="password"
+              class="input-field password-field"
+              placeholder="Password"
+            />
+            <a
+              href=""
+              class="toggle-forgot-password"
+              data-qa-id="forgot-password"
+              data-toggle="modal"
+              >Forgot your Password?</a
+            >
+          </div>
+
+          <input
+            type="submit"
+            style="margin-top: -5px"
+            value="Log In"
+            class="header-login-submit"
+          />
         </form>
       </nav>
     </header>
-    <h2>Hello World!</h2>
+    <!-- Main Section -->
+    <main class="main-section">
+      <h2>Hello! World</h2>
+    </main>
   </body>
 </html>

@@ -5,14 +5,13 @@ body {
 
 .nav-bar {
     width: 100%;
-    height: 65px;
+    height: 85px;
     background: #fff;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding-left: 20px;
     padding-right: 30px;
-    border: 1px solid seagreen;
 
 }
 
@@ -21,7 +20,12 @@ body {
     height: 63px;
 }
 
-.sign-in-header-input input {
+.sign-in-header-input {
+    display: flex;
+    align-items: center;
+}
+
+.sign-in-header-input .input-field {
     font-size: 14px;
     padding: 0;
     border: 1px solid #d8d8d8;
@@ -32,4 +36,40 @@ body {
     margin-left: 10px;
     margin-bottom: 3px;
     border-radius: 5px;
+}
+
+.header-login-submit {
+    border-radius: 5px;
+    padding: 10px;
+    font-weight: 700;
+    font-size: 14px;
+    background-color: #459dfd;
+    border: 0;
+    color: #FFF;
+    cursor: pointer;
+    margin-bottom: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 75px !important;
+    height: 32px;
+
+}
+
+.toggle-forgot-password {
+    display: block;
+    margin-left: 15px;
+    font-size: 11px;
+    font-weight: 400;
+    color: #ccc;
+}
+
+/* Main Section */
+.main-section {
+    width: 100vw;
+    height: 100vh;
+    background: #dddcdf url("https://static.blovcdn.com/images/signup_activate.jpg") no-repeat center center fixed;
+    background-size: cover;
+    padding: 0;
+    overflow: visible;
+    display: flex;
 }
