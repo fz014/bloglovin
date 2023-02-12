@@ -19,6 +19,7 @@
           <img class="navbar-logo" src="https://static.blovcdn.com/images/logo/logo-2.svg" alt="logo"
         /></a>
         <form class="sign-in-header-input">
+           
           <input
             style="margin-top: -5px"
             class="input-field"
@@ -39,8 +40,7 @@
             <a
               href=""
               class="toggle-forgot-password"
-              data-qa-id="forgot-password"
-              data-toggle="modal"
+             
               >Forgot your Password?</a
             >
           </div>
@@ -56,7 +56,66 @@
     </header>
     <!-- Main Section -->
     <main class="main-section">
-      <h2>Hello! World</h2>
+      <div class="sign-in-form">
+        <p class="sign-in-title">
+          Follow your favorite blogs and discover new ones.
+        </p>
+        <button
+          class="btn-fb-sign-up"
+          data-qa-id="btn-fb-sign-up"
+          data-context="signup"
+        >
+          <span class="fb-signup-btn-text">Continue with Facebook</span>
+        </button>
+        <div class="signup-text-divider">Or</div>
+        <!-- Form -->
+        <form action="">
+          <input
+            class="sign-in-input"
+            type="text"
+            name="full name"
+            id="full name"
+            placeholder="Full Name"
+          />
+          <input
+            class="sign-in-input"
+            type="email"
+            name="emaail"
+            placeholder="Email"
+          />
+          <input
+            class="sign-in-input"
+            type="password"
+            name="password"
+            id="passeword"
+            placeholder="Create Password"
+          />
+          <input
+            class="sign-in-input sign-in-btn"
+            type="submit"
+            name=""
+            id=""
+            value="Sign In"
+          />
+        </form>
+        <div class="signup-disclaimer" data-qa-id="signup-disclaimer">
+          By creating an account, I accept Bloglovin's
+          <a class="signup-disclaimer-tos" href="/tos" target="_blank">
+            Terms of Service</a
+          >. Questions?
+          <a
+            class="signup-disclaimer-tos"
+            href="http://help.bloglovin.com"
+            target="_blank"
+            >Contact Us</a
+          >
+        </div>
+        <!-- Apple and Android -->
+        <div class="app-store">
+          <a href="/"> <img src="Assets/Img/appstore.svg" alt="" /></a>
+          <a href="/"> <img src="Assets/Img/googleplay.png" alt="" /></a>
+        </div>
+      </div>
     </main>
   </body>
 </html>

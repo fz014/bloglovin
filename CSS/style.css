@@ -25,9 +25,9 @@ body {
     align-items: center;
 }
 
-.sign-in-header-input .input-field {
+ .input-field {
     font-size: 14px;
-    padding: 0;
+    padding: 0px;
     border: 1px solid #d8d8d8;
     width: 250px;
     height: 32px;
@@ -50,7 +50,7 @@ body {
     margin-bottom: 0;
     margin-left: 20px;
     margin-right: 20px;
-    width: 75px !important;
+    width: 75px ;
     height: 32px;
 
 }
@@ -66,10 +66,113 @@ body {
 /* Main Section */
 .main-section {
     width: 100vw;
-    height: 100vh;
+    height: 110vh;
     background: #dddcdf url("https://static.blovcdn.com/images/signup_activate.jpg") no-repeat center center fixed;
     background-size: cover;
     padding: 0;
     overflow: visible;
     display: flex;
+    position: relative;
+}
+
+.sign-in-form {
+    width: 400px;
+    height: 85vh;
+    background-color: #fff;
+    position: absolute;
+    margin-top: 35px;
+    transform: translate(100%, 30px);
+    border-radius: 3px;
+    /* padding: 35px 50px 25px; */
+    max-width: 400px;
+    margin: 0 auto;
+    background: #fff;
+    text-align: center;
+    box-shadow: 0 2px 2px rgb(0 0 0 / 16%)
+}
+
+.sign-in-title {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 400;
+    width: 300px;
+    padding: 30px;
+    border-bottom: 1px solid #e1e1e1;
+}
+
+.btn-fb-wrapper {
+    margin: auto;
+}
+
+.btn-fb-sign-up {
+    width: 280px;
+    border-radius: 5px;
+    border: 0;
+    background-color: #3b5b98;
+    color: #FFF;
+    display: block;
+    padding: 13px 10px;
+    text-align: center;
+    transition: background-color 150ms;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+.signup-text-divider {
+    margin: 15px auto;
+    text-align: center;
+    display: block;
+    clear: both;
+}
+
+.signup-form-email {
+    display: block;
+    margin-top: 0;
+}
+
+.forgot-password {
+    color: #ccc;
+    font-size: 11px;
+    font-weight: 400;
+    margin: 10px;
+}
+
+.sign-in-input {
+    border: 1px solid #d8d8d8;
+    border-bottom: 0;
+    border-radius: 0;
+    margin: 0;
+    padding: 15px;
+    font-size: 15px;
+    font-weight: 400;
+    width: 280px;
+}
+
+.sign-in-btn {
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 15px;
+    background-color: #2083f7;
+    border: 0;
+    color: #FFF;
+    cursor: pointer;
+    margin-bottom: 0;
+    transition: background-color 150ms;
+    margin-top: 20px;
+    width: 310px;
+}
+
+.signup-disclaimer {
+    width: 80%;
+    color: #ccc;
+    font-size: 11px;
+    font-weight: 400;
+    margin: 10px auto;
+}
+
+
+.app-store {
+    margin-top: 80px;
 }
